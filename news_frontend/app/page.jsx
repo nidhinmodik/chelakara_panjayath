@@ -91,11 +91,16 @@ const Home = async () => {
                       category="വിദ്യാഭ്യാസം"
                       type="details-news"
                     />
-                     <AdvertisementCard2 />
+                    <AdvertisementCard2 />
                     <DetailsNews news={news["Daily"]}
                       category="Daily
                     " />
                   </div>
+                </div>
+                <div className="flex w-full lg:w-8/12">
+                  <DetailsNews news={news["കൗതുക വാർത്തകൾ"]}
+                    category="കൗതുക വാർത്തകൾ
+                    " />
                 </div>
               </div>
             </div>
@@ -148,10 +153,10 @@ const Home = async () => {
         </div>
       </main>
       <div>
-      <AdvertisementCard5 />
+        <AdvertisementCard5 />
       </div>
       <div>
-        <AboutPanjayath/>
+        <AboutPanjayath />
       </div>
       <Footer />
     </div>

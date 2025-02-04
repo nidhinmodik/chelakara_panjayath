@@ -68,6 +68,7 @@ const AddWriter = () => {
                 <option value="അറിയിപ്പുകൾ">അറിയ്പുകൾ</option>
                 <option value="വിദ്യാഭ്യാസം">വിദ്യാഭ്യാസം</option>
                 <option value="Daily">Daily</option>
+                <option value="കൗതുക വാർത്തകൾ">കൗതുക വാർത്തകൾ</option>
               </select>
             </div>
           </div>
